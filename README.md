@@ -31,7 +31,7 @@ In `app/assets/javascripts/application.js` add:
 
 * In your views, assign an `id` to the element were you want the particles to appear. In this case lets call it `particles`
 
-* create a javascript file in `app/assets/javascripts/my-particles.js`. You can initialize particles.js as shown in example:
+* Create a javascript file in `app/assets/javascripts/my-particles.js`. You can initialize particles.js as shown in example:
 
 ```javascript
 document.addEventListener('turbolinks:load',() => {
